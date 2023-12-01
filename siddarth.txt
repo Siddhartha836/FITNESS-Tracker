@@ -1,0 +1,28 @@
+1.HTML Structure:
+index.html (Homepage):
+
+2.Brief introduction and welcome message.
+Featured workouts or exercise suggestions.
+workouts.html (Workout Database):
+
+3.Categorized list of workouts with brief descriptions.
+Links to detailed instructions or video demonstrations.
+register.html (User Registration):
+
+4.Simplified user registration form (username, email, password).
+profile.html (User Profile):
+
+5.Basic user profiles for goal setting and progress tracking.
+goal-setting.html (Goal Setting):
+
+6.Simple form for users to set fitness goals.
+planner.html (Workout Planner):
+
+7.Basic functionality for users to create and customize their workout routines.
+progress.html (Progress Tracking):
+
+8.Basic visual representation of users' fitness progress.
+about.html (About Us/Contact):
+
+9.Brief information about the website.
+Contact form or email address for inquiries.

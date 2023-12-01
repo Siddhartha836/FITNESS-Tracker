@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        section h2 {
+            color:cornflowerblue;
+        }
+        footer#last{
+            color: white;
+        }
+
+        section p {
+            color: white;
+        }
+        h1{
+            color:mediumslateblue;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color:whitesmoke;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid blue;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #3498db; /* Belize Hole */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2980b9; /* Belize Hole - Darker shade on hover */
+        }
+
+        /* Additional styling for progress tracking */
+        canvas {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+            border: 1px solid wheat;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color:chocolate; /* Vanilla */
+            color: #333; /* Dark Gray for text */
+            
+        }
+        a{
+            color: antiquewhite;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>User Registration</h1>
+</header>
+
+<section>
+    <h2>Registration Form</h2>
+    <!-- User registration form with fields for username, email, and password -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</section>
+
+<footer id="last">
+    <p>&copy; 2023 Fitness Tracker</p>
+</footer>
+</body>
+
+</html>
